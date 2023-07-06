@@ -14,7 +14,7 @@ class Car2 implements Comparable<Car2> {
     @Override
     public String toString() {
         return "Car2{" +
-                "price=" + price +
+                "price="+ price +
                 ", model='" + model + '\'' +
                 ", speed=" + speed +
                 ", color='" + color + '\'' +
