@@ -1,0 +1,1 @@
+flush() just makes sure that any buffered data is written to disk (in this case - more generally, flushed through whatever IO channel you're using). You can still write to the stream (or writer) afterwards. close() flushes the data and indicates that there isn't any more data.
